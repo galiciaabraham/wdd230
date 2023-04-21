@@ -1,6 +1,5 @@
+let year = new Date().getFullYear();
 
-let year = newDate().getfullYear();
+document.querySelector('#copyright').textContent = `${year} .:|:. Abraham Galicia .:|:. Mexico`;
 
-document.querySelector('#copyright').textContent = `&copy; ${year} .:|:. Abraham Galicia .:|:. Mexico`;
-
-document.querySelector('#last-updated').textContent = document.lastModified;
+document.querySelector('#last-updated').textContent = `Last modified: ${document.lastModified}`;
