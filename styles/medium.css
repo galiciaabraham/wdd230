@@ -1,0 +1,25 @@
+@media only screen and (max-width: 32.5em) {
+    header {
+        max-width: 500px;
+    }
+
+    header img {
+        max-width: 100px;
+        padding: 10px 10px;
+        border-radius: 40px;
+    }
+    
+    header h1 {
+        margin: 0 auto;
+        margin-top: 40px;
+        padding:10px 10px;
+        font-size: 2.5rem;
+
+    }
+
+    footer {
+        display: block;
+        max-width: 500px;
+    }
+
+}
