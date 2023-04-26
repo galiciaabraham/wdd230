@@ -21,8 +21,13 @@ header h2 {
 
 body {
     font-family: 'PT Sans', sans-serif;
-    color: #F7F9F9;
+    color: #DAD6D6;
     background-color: #DAD6D6;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 body a {
@@ -39,6 +44,7 @@ margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background-color: #343F3E;
     margin: 2rem 1rem;
+    padding: .5rem 1rem;
 }
 
 h3 {
