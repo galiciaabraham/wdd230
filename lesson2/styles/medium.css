@@ -1,7 +1,9 @@
 @media screen and (min-width: 32.5em) {
     
     header {
-        border-radius: 0px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin: .5rem auto;
     }
 
     header h1 {
@@ -35,6 +37,13 @@
     #contrast img {
         max-width: 80%;
         margin-left: 4rem;
+    }
+
+    footer {
+        margin: auto;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin-bottom: 10px;
     }
 
 }

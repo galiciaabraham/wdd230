@@ -3,15 +3,13 @@ header {
     background-color: #225560 ;
     color: #DAD6D6;
     font-family: 'Josefin Sans', sans-serif;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: auto;
     text-align: center;
 }
 
 header h1 {
     padding-top: 1.5rem;
     font-size: 3rem;
+    margin: 0 auto;
 }
 
 header h2 {
@@ -23,6 +21,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     color: #DAD6D6;
     background-color: #DAD6D6;
+    font-size: 1.5rem;
 }
 
 main {
@@ -72,13 +71,10 @@ footer {
     background-color: #225560 ;
     color: #DAD6D6;
     font-family: 'Josefin Sans', sans-serif;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: auto;
-    
 }
 
 footer p {
     padding-top: 10px;
     text-align: center;
+    margin-bottom: 0;
 }
