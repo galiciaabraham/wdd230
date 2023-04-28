@@ -1,0 +1,36 @@
+@media screen and (min-width: 64em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #hierarchy, #white-space, #contrast { 
+        max-width: 23rem;
+        display: inline-block;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: #343F3E;
+        margin: 2rem 5rem;
+    }
+
+    #hierarchy {
+        grid-column: 1/2;
+    }
+
+    #white-space {
+        grid-column: 2/3;
+    }
+
+    #contrast {
+        grid-column: 3/4;
+        max-width: 23rem;
+        width: fit-content;
+
+    }
+
+    #contrast img {
+        max-width: 90%;
+        margin-left: .5rem;
+    }
+}
