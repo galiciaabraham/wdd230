@@ -1,0 +1,30 @@
+
+header {
+    background-color: #225560 ;
+    color: #DAD6D6;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 1.5rem;
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+header h2 {
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #225560 ;
+    color: #DAD6D6;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer p {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
