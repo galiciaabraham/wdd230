@@ -1,8 +1,8 @@
 
 header {
-    background-color: #225560 ;
-    color: #DAD6D6;
-    font-family: 'Josefin Sans', sans-serif;
+    background-color: #8C2F39 ;
+    color: #f6f7eb;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
 }
 
@@ -17,10 +17,16 @@ header h2 {
     font-size: 2rem;
 }
 
+body {
+    font-family: 'Questrial', sans-serif;
+    background-color: #f6f7eb;
+    color:#1F271B ;
+}
+
 footer {
-    background-color: #225560 ;
-    color: #DAD6D6;
-    font-family: 'Josefin Sans', sans-serif;
+    background-color: #8C2F39 ;
+    color: #f6f7eb;
+    font-family: 'Questrial', sans-serif;
 }
 
 footer p {
