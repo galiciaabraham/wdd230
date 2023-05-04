@@ -1,20 +1,40 @@
-
+/*This section is for the home page*/
 header {
     background-color: #8C2F39 ;
     color: #f6f7eb;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
+    width: 90%;
     padding-top: 1.5rem;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0 auto;
 }
 
 header h2 {
     padding-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
     font-size: 2rem;
+    color: #f6f7eb;
+    padding: .5rem;
+}
+
+header a:hover{
+    background-color: #f6f7eb;
+    color: #8C2F39;
 }
 
 body {
@@ -23,6 +43,27 @@ body {
     color:#1F271B ;
 }
 
+main {
+    display: block;
+    text-align: center;
+}
+
+main h2{
+    font-size: 3rem;
+}
+
+main h3 {
+    font-size: 2rem;
+}
+
+main p {
+    font-size: 2rem ;
+    padding: .5rem .5rem;
+}
+
+img {
+    width: 100%;
+}
 footer {
     background-color: #8C2F39 ;
     color: #f6f7eb;
