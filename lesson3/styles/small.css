@@ -58,7 +58,8 @@ main h3 {
 
 main p {
     font-size: 2rem ;
-    padding: .5rem .5rem;
+    padding: 1rem 1rem;
+    margin-bottom: 4rem;
 }
 
 img {
@@ -74,4 +75,25 @@ footer p {
     padding-top: 10px;
     text-align: center;
     margin-bottom: 0;
+}
+
+/*This is for the target-audience page*/
+
+#Carlos ul, #Margarita ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Carlos, #Margarita {
+    display: flex;
+    flex-direction: column;
+    background-color: #8C2F39;
+    border-radius: 1rem;
+    margin: 2rem 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+#Carlos img {
+justify-content: center;
 }
