@@ -11,4 +11,14 @@
         max-width: 50%;
     }
 
+/*This is for the target-audience page*/
+
+    p {
+        text-align: justify;
+        margin: 1rem 1rem;
+    }
+
+    #Carlos img, #Margarita img {
+        max-width: 40%;
+    }
 }

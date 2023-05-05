@@ -30,6 +30,7 @@ header a {
     font-size: 2rem;
     color: #f6f7eb;
     padding: .5rem;
+    text-align: center;
 }
 
 header a:hover{
@@ -79,14 +80,7 @@ footer p {
 
 /*This is for the target-audience page*/
 
-#Carlos ul, #Margarita ul {
-    list-style: none;
-    padding: 0;
-}
-
 #Carlos, #Margarita {
-    display: flex;
-    flex-direction: column;
     background-color: #8C2F39;
     border-radius: 1rem;
     margin: 2rem 2rem;
@@ -94,6 +88,28 @@ footer p {
 
 }
 
-#Carlos img {
-justify-content: center;
+#Carlos h3, #Margarita h3 {
+    padding-top: 1rem;
+    color: #f6f7eb;
 }
+
+#Carlos li, #Margarita li {
+    padding-bottom: 1rem;
+    color: #f6f7eb;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+#Carlos ul, #Margarita ul {
+    padding: 1rem 0 ;
+    text-align: center;
+}
+#Carlos img {
+width: 95%;
+}
+
