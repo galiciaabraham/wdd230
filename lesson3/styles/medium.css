@@ -20,5 +20,10 @@
 
     #Carlos img, #Margarita img {
         max-width: 40%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
     }
+/*This section is for the design page */
+
+
 }

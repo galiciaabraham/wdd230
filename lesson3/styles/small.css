@@ -38,6 +38,11 @@ header a:hover{
     color: #8C2F39;
 }
 
+h2, h3, h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
 body {
     font-family: 'Questrial', sans-serif;
     background-color: #f6f7eb;
@@ -103,13 +108,75 @@ ul {
     list-style: none;
     text-align: start;
     font-size: 1.5rem;
+    padding: 0  ;
 }
 
 #Carlos ul, #Margarita ul {
     padding: 1rem 0 ;
     text-align: center;
 }
-#Carlos img {
-width: 95%;
+
+
+#Scenarios li {
+    font-style: oblique;
+    padding: 1rem 1rem;
+    text-align: justify;
+    margin: 0   ;
 }
 
+/*This section is for the design page */
+
+.colors {
+    margin: 0 auto;
+    border:#1F271B solid;
+}
+
+#color-schema {
+    background-color: #748386;
+    color: #f6f7eb;
+}
+
+
+tr {
+    border:#1F271B solid;
+}
+
+.primary {
+    background-color: #8C2F39;
+    color: #f6f7eb;
+}
+
+.secondary {
+    background-color: #f6f7eb;
+    color: #8C2F39;
+}
+
+.accent1 {
+    background-color: #748386;
+    color: #f6f7eb;
+    
+}
+
+.accent2 {
+    background-color: #f6f7eb;
+    color: #1F271B;
+}
+
+.colored {
+    background-color: #748386;
+    color: #f6f7eb;
+}
+
+.colored-2 {
+    background-color: #8C2F39;
+    color: #f6f7eb;
+}
+
+#P-font {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}
