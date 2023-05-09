@@ -1,0 +1,182 @@
+/*This section is for the home page*/
+header {
+    background-color: #8C2F39 ;
+    color: #f6f7eb;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    width: 90%;
+    padding-top: 1.5rem;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+
+header h2 {
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #f6f7eb;
+    padding: .5rem;
+    text-align: center;
+}
+
+header a:hover{
+    background-color: #f6f7eb;
+    color: #8C2F39;
+}
+
+h2, h3, h4 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+body {
+    font-family: 'Questrial', sans-serif;
+    background-color: #f6f7eb;
+    color:#1F271B ;
+}
+
+main {
+    display: block;
+    text-align: center;
+}
+
+main h2{
+    font-size: 3rem;
+}
+
+main h3 {
+    font-size: 2rem;
+}
+
+main p {
+    font-size: 2rem ;
+    padding: 1rem 1rem;
+    margin-bottom: 4rem;
+}
+
+img {
+    width: 100%;
+}
+footer {
+    background-color: #8C2F39 ;
+    color: #f6f7eb;
+    font-family: 'Questrial', sans-serif;
+}
+
+footer p {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/*This is for the target-audience page*/
+
+#Carlos, #Margarita {
+    background-color: #8C2F39;
+    border-radius: 1rem;
+    margin: 2rem 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+#Carlos h3, #Margarita h3 {
+    padding-top: 1rem;
+    color: #f6f7eb;
+}
+
+#Carlos li, #Margarita li {
+    padding-bottom: 1rem;
+    color: #f6f7eb;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    text-align: start;
+    font-size: 1.5rem;
+    padding: 0  ;
+}
+
+#Carlos ul, #Margarita ul {
+    padding: 1rem 0 ;
+    text-align: center;
+}
+
+
+#Scenarios li {
+    font-style: oblique;
+    padding: 1rem 1rem;
+    text-align: justify;
+    margin: 0   ;
+}
+
+/*This section is for the design page */
+
+.colors {
+    margin: 0 auto;
+    border:#1F271B solid;
+}
+
+#color-schema {
+    background-color: #748386;
+    color: #f6f7eb;
+}
+
+
+tr {
+    border:#1F271B solid;
+}
+
+.primary {
+    background-color: #8C2F39;
+    color: #f6f7eb;
+}
+
+.secondary {
+    background-color: #f6f7eb;
+    color: #8C2F39;
+}
+
+.accent1 {
+    background-color: #748386;
+    color: #f6f7eb;
+    
+}
+
+.accent2 {
+    background-color: #f6f7eb;
+    color: #1F271B;
+}
+
+.colored {
+    background-color: #748386;
+    color: #f6f7eb;
+}
+
+.colored-2 {
+    background-color: #8C2F39;
+    color: #f6f7eb;
+}
+
+#P-font {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.7rem;
+}

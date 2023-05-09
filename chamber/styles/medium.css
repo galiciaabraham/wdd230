@@ -1,0 +1,29 @@
+@media screen and (min-width: 32.5em) {
+
+    header ul {
+        display: flex;
+    }
+    header li {
+        flex:1;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+/*This is for the target-audience page*/
+
+    p {
+        text-align: justify;
+        margin: 1rem 1rem;
+    }
+
+    #Carlos img, #Margarita img {
+        max-width: 40%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+    }
+/*This section is for the design page */
+
+
+}

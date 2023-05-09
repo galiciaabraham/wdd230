@@ -1,0 +1,38 @@
+@media screen and (min-width: 64em) {
+
+    img {
+        width: 30%;
+    }
+
+/*This is for the target-audience page*/
+
+    #Carlos img {
+        width: 31%;
+    }
+    #audience {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #audience-title {
+        grid-column: 1/5;
+    }
+
+    #audience-description {
+        grid-column: 1/5;
+    }
+
+    #Carlos {
+        grid-column: 1/3;
+    }
+
+    #Margarita {
+        grid-column: 3/5;
+    }
+
+    #Scenarios {
+        grid-column: 1/5;
+    }
+
+
+}
