@@ -47,6 +47,23 @@ nav ul.open {
     display: block;
 }
 
+#hamburger span:nth-child(1) {
+    display: block;
+}
+#hamburger span:nth-child(2) {
+    display: none;
+}
+
+#hamburger.open span:nth-child(2) {
+    display: block;
+}
+#hamburger.open span:nth-child(1) {
+    display: none;
+}
+
+
+
+
 
 
 
