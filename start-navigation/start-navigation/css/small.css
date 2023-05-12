@@ -43,7 +43,7 @@ nav ul {
     display: none;
 }
 
-nav ul.open {
+nav ul.opentoggle {
     display: block;
 }
 
@@ -54,10 +54,10 @@ nav ul.open {
     display: none;
 }
 
-#hamburger.open span:nth-child(2) {
+#hamburger.opentoggle span:nth-child(2) {
     display: block;
 }
-#hamburger.open span:nth-child(1) {
+#hamburger.opentoggle span:nth-child(1) {
     display: none;
 }
 
