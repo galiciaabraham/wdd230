@@ -1,23 +1,72 @@
 @media screen and (min-width: 32.5em) {
 
-
-    img {
-        max-width: 50%;
+    .header-titles {
+        font-size: larger;
+        width: 100%;
     }
 
-/*This is for the target-audience page*/
 
-    p {
-        text-align: justify;
-        margin: 1rem 1rem;
+    .social-media {
+        align-self: center;
     }
 
-    #Carlos img, #Margarita img {
-        max-width: 40%;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
+    .break-1 {
+        flex-basis: 100%;
+        height: 0;
     }
-/*This section is for the design page */
 
+    #today {
+        padding-bottom: 15px;
+        align-self: center;
+    }
 
+    main {
+        flex-wrap: wrap;
+    }
+
+    #Hero {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #News {
+        order: -4;
+    }
+    
+    #Spotlights {
+        height: fit-content;
+        display: flex;
+        order: -3;
+    }
+
+    .spot-1 {
+        flex: 1;
+    }
+
+    .spot-2{
+        flex: 1;
+    }
+    
+    #Join {
+        order: -2;   
+    }
+    
+    #Event {
+        order: -1;
+        width: 50%;
+    }
+    
+    #Weather {
+        order: 0;
+        width: 30%;
+        
+    }
+
+    footer img {
+        width: 30%;
+    }
+
+    #header-logo img {
+        width: 40%;
+    }
 }
