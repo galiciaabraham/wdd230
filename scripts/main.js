@@ -1,23 +1,16 @@
-const today = new Date();
+const options = {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric"
+};
 
-let year = today.getFullYear();
-let month = today.getMonth();
-let day = today.getDay();
+let year = new Date().getFullYear();
 
-function monthInText() {
-    let monthText = "";
-    switch(month){
-        case 0 :
-             monthText = "January";
-             break;
-    }
-}
-
-function todayIs() {
-    document.querySelector('#today').textContent = `${}`;
-}
-
+document.querySelector('#today').textContent = `Today is ${new Date().toLocaleDateString("en-UK", options)}`;
 
 document.querySelector('#copyright-year').textContent = year;
 
 document.querySelector('#last-updated').textContent = `Last modified: ${document.lastModified}`;
+
+	
