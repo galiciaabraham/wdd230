@@ -10,15 +10,10 @@ header {
     flex-wrap: wrap;
 }
 
-.header-1 {
-    width: 90%;
-}
-
 .header-titles {
     flex: 1;
     padding: 1rem .5rem;
     width: 90%;
-    margin: 0 0 ;
 }
 
 header h1 {
@@ -36,13 +31,16 @@ header h2 {
 
 .social-media {
     align-self: center;
-    background-color: #1F271B;
+    margin-bottom: 10px ;
 }
 
 .social-media img {
     flex: 2;
     width: 2rem;
-    padding: .5rem .5rem;
+    margin: .5rem .5rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 
 #header-logo  {
@@ -55,7 +53,16 @@ header h2 {
     width: 40%;
 }
 
+#hamburger {
+    background-color: #8C2F39;
+    border: none;
+    font-size: 2rem;
+}
 
+#hamburger:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
 
 header ul {
     list-style: none;
