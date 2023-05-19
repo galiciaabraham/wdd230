@@ -1,16 +1,19 @@
 /*This section is for the home page*/
-#banner {
+.banner {
     display: flex;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 
 }
-#banner p {
-flex: 1;
-background-color: #f6f7eb;
+.banner p {
+    flex: 1;
+    background-color: #f6f7eb;
+    text-align: center;
 }
 
 .close {
     border: none;
-    text-align: end;
 }
 
 .no-tuesday {
