@@ -75,6 +75,11 @@ header nav {
     width: 100%;
 }
 
+nav ul li a.active {
+    background-color: #f6f7eb;
+    color: #8C2F39;
+}
+
 header li a {
     display: block;
     text-decoration: none;
@@ -90,7 +95,6 @@ header li a:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
-
 
 nav ul {
     list-style: none;

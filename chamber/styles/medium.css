@@ -58,12 +58,26 @@
         display: block;
         order: -2;
         grid-column: 1/4;
+        background-color: #748386;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    #Join div {
+        margin: 1rem 1rem;
+        background-color:#8C2F39 ;
+        padding: 1rem 1rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 10px;
+
     }
 
     #Join div a {
         display: block;
+        text-align: center;
         text-decoration: none;
         color: #f6f7eb;
+        font-weight: 1000;
         font-size: 1.5rem;
     }
     
@@ -78,6 +92,12 @@
         background-color:#f6f7eb ;
     }
     
+    #Join p {
+        color: #f6f7eb;
+        text-align: center;
+        padding: 1rem 1rem;
+        font-size: 1.2rem;
+    }
     #Event {
         order: -1;
         grid-column: 1/3;
