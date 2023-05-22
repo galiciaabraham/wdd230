@@ -15,9 +15,10 @@ button.addEventListener('click', ()=>{
 });
 
 let today = new Date().getDay();
+console.log(today);
 
 if (today !== 1 || today !== 2){
     banner.setAttribute('class','no-tuesday');
-    console.log(banner.attributes);
+    console.log(banner.attributes.classList);
 }
 
