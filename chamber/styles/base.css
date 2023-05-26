@@ -26,7 +26,7 @@ header {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 
