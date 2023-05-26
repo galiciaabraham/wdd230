@@ -88,11 +88,11 @@
         <section id="Weather" title="Weather">
             <h3>Weather</h3>
             <p id="cloud-emoji">&#9925;</p>
-            <p class="temperature">33°C</p>
+            <p class="temperature"><span class="temperature-data">90</span>°F</p>
             <p class="weather-summary">Partially cloudy</p>
             <hr>
-            <p class="wind-speed">Wind Speed: 7.5km/h</p>
-            <p class="wind-chill">Wind Chill: N/A</p>            
+            <p class="wind-speed">Wind Speed: <span class="wind-speed-data">3.5</span>/mph</p>
+            <p class="wind-chill">Wind Chill: <span class="wind-chill-result"></span></p>            
         </section>
     </main>
      
@@ -113,6 +113,7 @@
     
     <script src="../scripts/main.js"></script>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
