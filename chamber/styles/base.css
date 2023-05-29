@@ -1,15 +1,19 @@
 /*This section is for the home page*/
 .banner {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 30px;
     position: sticky;
     top: 0px;
     z-index: 1;
+    height: 10px;
 
 }
 .banner p {
-    flex: 1;
     background-color: #f6f7eb;
     text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
 }
 
 .close {
