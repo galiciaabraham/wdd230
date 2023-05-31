@@ -1,0 +1,40 @@
+body {
+    background-color: azure;
+}
+
+h1{
+    text-align: center;
+    background-color: gray;
+    color: antiquewhite;
+}
+
+picture {
+    display: block;
+    padding: 1rem 1rem;
+}
+
+
+picture img[data-src] {
+    filter:blur(0.2em);
+    
+}
+
+[data-src] {
+    min-width: 10px;
+    min-height: 10px;
+}
+
+picture img {
+    display: block;
+    margin: 0 auto;
+    filter: blur(0em);
+    transition: filter .5s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+    color: antiquewhite;
+}
+
