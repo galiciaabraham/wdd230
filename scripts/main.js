@@ -7,10 +7,10 @@ const options = {
 
 let year = new Date().getFullYear();
 
-document.querySelector('#today').textContent = `Today is ${new Date().toLocaleDateString("en-UK", options)}`;
-
 document.querySelector('#copyright-year').textContent = year;
 
 document.querySelector('#last-updated').textContent = `Last modified: ${document.lastModified}`;
+
+document.querySelector('#today').textContent = `Today is ${new Date().toLocaleDateString("en-UK", options)}`;
 
 	
