@@ -137,5 +137,12 @@
         width: 30%;
     }
 
+/*This section is for the discover page*/
+
+    .discover-pictures picture img:hover {
+        transition: .3s;
+        box-shadow: 0 4px 8px 0 rgba(0,0,2,1);
+        opacity: .8;
+    }
     
 }

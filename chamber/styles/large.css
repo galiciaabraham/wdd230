@@ -111,14 +111,15 @@
         margin-bottom: 2rem;
     }
     
-
-
-
-
-   
     footer img {
         width: 20%;
     }
 
+
+/*This section is for the discover page*/
+
+    .discover-pictures picture img {
+        width: 70%;
+    }
 
 }

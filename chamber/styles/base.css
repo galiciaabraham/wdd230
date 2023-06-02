@@ -397,3 +397,56 @@ footer a {
     
 }
 
+/*This section is for the discover page*/
+
+.discover h3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.discover h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.discover p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.discover picture {
+    display: block;
+}
+
+.demographics-3 picture img {
+    display: block;
+    max-width: 80%;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    opacity: .8;
+}
+
+.discover-pictures {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.discover-pictures picture {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+
+}
+ .discover-pictures picture img {
+    display: block;
+    width: 100%;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
+ }
+
+
+
+
