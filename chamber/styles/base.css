@@ -460,4 +460,11 @@ footer a {
     margin-bottom: 3rem;
 }
 
+.final-line span {
+    color: #f6f7eb;
+    display: block;
+    text-align: center;
+    padding: .5rem 1rem;
+}
+
 
