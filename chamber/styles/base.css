@@ -447,6 +447,17 @@ footer a {
 
  }
 
+.picture-name {
+    text-align: center;
+    font-size: 2rem;
+    background-color: #748386;
+    color: #f6f7eb;
+}
 
+.final-line {
+    background-color: #748386;
+    height: 2rem;
+    margin-bottom: 3rem;
+}
 
 
