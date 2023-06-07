@@ -49,59 +49,62 @@
 <main>
     <h1>Course Proposal Application</h1>
     <form  method="get" action="thanks.html">
+
         <fieldset>
             <legend>Applicant Information</legend>
-            <label for="fname">
+            <label class="top" for="fname">
             First Name*:<input type="text" name="fname" required>
             </label>
-            <label for="lname">
+            <label class="top" for="lname">
                 Last Name*:<input type="text" name="lname" required>
             </label>
-            <label for="phone">
+            <label class="top" for="phone">
                 Phone:<input type="tel" name="phone" placeholder="1234554321">
             </label>
-            <label for="email">
+            <label class="top" for="email">
                 Email*:<input type="email" name="email" placeholder="someone@email.com" required>
             </label>
-            <label for="url">
+            <label class="top" for="url">
                 Website:<input type="url" name="url" placeholder="https://">
                 </label>
         </fieldset>
+
         <fieldset>
             <legend>Course Information</legend>
             <div>Audience</div>
-            <label>
+            <label class="sbs">
                 <input type="radio" name="audience" value="beginner">Beginner
             </label>
-            <label>
+            <label class="sbs">
                 <input type="radio" name="audience" value="intermediate">Intermediate
             </label>
-            <label>
+            <label class="sbs">
                 <input type="radio" name="audience" value="advanced">Advanced
             </label>
 
             <div>Software Needed</div>
-            <label>
+            <label class="sbs">
                 <input type="checkbox" name="editing" value="yes">Photo Editing
             </label>
-            <label>
+            <label class="sbs">
                 <input type="checkbox" name="code" value="yes">Coding
             </label>
-            <label>
+            <label class="sbs">
                 <input type="checkbox" name="process" value="yes">Preprocessor
-            </label>
-            <label>
+            </label class="sbs">
+            <label class="sbs">
                 <input type="checkbox" name="client" value="yes">FTP Client
             </label>
         </fieldset>
+
         <fieldset>
             <legend>Funding</legend>
-            <label>Anticipated Completion Date
+            <label class="top">Anticipated Completion Date
                 <input type="date" name="completedDate">
             </label>
-            <label>Course Subject
+            <label class="top">Course Subject
                 <select name="subject" required>
-                    <option value="">Please Select</option>
+                    <option value="">Please Select &#9662;</option>
                     <option value="softwate">Software Development</option>
                     <option value="maths">Algebra</option>
                     <option value="creative">Creative Professional</option>
@@ -110,11 +113,11 @@
                     <option value="construction">Hudson Construction</option>
                 </select>
             </label>
-            <label>How Many Authors
+            <label class="top">How Many Authors
                 <input type="number" name="authors">
             </label>
         </fieldset>
-        <input type="submit" value="Propose my course">
+        <input type="submit" value="Propose my course" class="submitBtn">
     </form>               
 </main>
     
