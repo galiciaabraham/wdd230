@@ -122,6 +122,34 @@
         width: 70%;
     }
 
+/*This section if for the join page */
+
+main.join {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.join form {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.membership-description {
+    display: block;
+    grid-column: 2/3;
+    grid-row: 3/5;
+    
+}
+
+.membership-description p {
+    font-size: 1.2rem;
+}
+
+form label.memberships {
+    padding: .4rem 0;
+}
+
 /* This is for the header on thank you page */
 
 .tk-header-1 {
