@@ -55,11 +55,11 @@
 
                 <legend>Applicant Details</legend>
 
-                <label class="top" for="fname">First Name*:<input type="text" name="fname" required></label>
+                <label class="top" for="fname">First Name*:<input type="text" name="fname" required pattern="[A-Za-z .][-A-Z-a-z]" maxlength="40"></label>
 
-                <label class="top" for="lname">Last Name*:<input type="text" name="lname" required></label>
+                <label class="top" for="lname">Last Name*:<input type="text" name="lname" required ></label>
 
-                <label class="top" for="bname">Business Name: <input type="text" name="bname" required></label>
+                <label class="top" for="bname">Business Name: <input type="text" name="bname" pattern="[A-Za-z .][-A-Z-a-z]" maxlength="40" minlength="7" ></label>
                 
                 <label class="top" for="bposition">Business Position:<input type="text" name="bposition"></label>
 
@@ -89,7 +89,7 @@
             <fieldset class="description">
                 <legend>Business Description</legend>
 
-                <label class="dsc" for="description"><textarea name="business-description" placeholder="Write a short description of your business in 200 words or less..."></textarea></label>
+                <label class="dsc" for="description"><textarea name="business-description" placeholder="Write a short description of your business in 200 words or less..."></textarea minlength="50" maxlength="200"></label>
                 
                 <label class="submission-date"><input type="hidden" id="completed-date" name="completed-date" value=""></label>
 
