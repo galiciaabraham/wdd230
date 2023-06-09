@@ -122,4 +122,10 @@
         width: 70%;
     }
 
+/* This is for the header on thank you page */
+
+.tk-header-1 {
+    display: block;
+}
+
 }
