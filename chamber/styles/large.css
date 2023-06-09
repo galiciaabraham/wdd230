@@ -122,6 +122,10 @@
         width: 70%;
     }
 
+    .picture-description {
+        padding: 1rem 10rem;
+    }
+
 /*This section if for the join page */
 
 main.join {

@@ -454,6 +454,10 @@ footer a {
     color: #f6f7eb;
 }
 
+.picture-description {
+    padding: 1rem 3rem;
+}
+
 .final-line {
     background-color: #748386;
     height: 2rem;
