@@ -15,7 +15,7 @@
 
     nav {
         grid-column: 1/7;
-        order: -1;
+        margin-top: 1rem;
     }
 
     nav ul {
