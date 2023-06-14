@@ -2,26 +2,26 @@
 const msToDays = 86400000;
 
 //Displaying last visit.
-const lastVisitSpan = document.querySelector('.visits');
+let lastVisitSpan = document.querySelector('.visits');
 
-//get last visit. 
+//get current time in miliseconds. 
 const todayInMs = Date.now();
+//const testTime = todayInMs - (3 * 24 * 60 * 60 * 1000 );
+//console.log(testTime);
 
-//
+//get the last local storage visit saved
 let latestVisitLs = Number(window.localStorage.getItem("lastVisit-ls"))
+//set the local storage to today's date
+localStorage.setItem('lastVisit-ls', todayInMs.toString());
 
-localStorage.setItem('lastVisit-ls', todayInMs);
-
-let lastVisitInMs = latestVisitLs / msToDays;
-console.log(lastVisitInMs);
-
+//calculate time elapsed between the last visit and today in miliseconds
+let lastVisitInDays = (latestVisitLs - todayInMs) / msToDays;
 function calculateDays() {
-    let visitInDays = lastVisitInMs * msToDays;
-    Math.round(visitInDays);
-    lastVisitSpan = $`You visited the site ${visitInDays} ago`;
+    let visitInDays = Math.round(lastVisitInDays);
+    lastVisitSpan.textContent = `You visited the site ${visitInDays} days ago`;
 }
-
-if (lastVisitInMs >= 86400000) {
+//decide wether the message will say today or the number of days elapsed
+if (lastVisitInDays >= 1) {
     calculateDays();
 } else {
     lastVisitSpan.textContent = `Your last visit was today`;
