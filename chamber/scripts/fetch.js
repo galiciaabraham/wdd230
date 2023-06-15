@@ -4,13 +4,22 @@ const displayBusiness = (businesses) => {
     const cards = document.querySelector('.cards');
 
     businesses.forEach((business) => {
-        const businessName = document.createElement('h2');
-        const businessAddress = document.createElement('h3');
-        const businessPhone = document.createElement('h4');
-        const businessWeb = document.createElement('h4');
-        const businessLogo = document.createElement('a');
+        let businessName = document.createElement('h2');
+        let businessAddress = document.createElement('h3');
+        let businessPhone = document.createElement('h4');
+        let businessWeb = document.createElement('a');
+        let businessLogo = document.createElement('img');
+        
+        businessName.textContent = `Business Name: ${business.name}`;
+        businessAddress.textContent = `Address: ${business.address}`;
+        businessPhone.textContent = `Phone number: ${business.phone}`;
+        
+        businessWeb.textContent = `Website: ${business.website}`;
+        businessWeb.setAttribute('href',`${business.website}`);
 
-    
+        businessLogo.setAttribute('src', business.imageurl);
+        businessLogo.setAttribute('alt', `Logo of ${business.name}`);
+        businessLogo.setAttribute('loading','lazy');
         
     });
 }
