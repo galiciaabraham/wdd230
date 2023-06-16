@@ -23,11 +23,12 @@ const displayBusiness = (businesses) => {
         businessLogo.setAttribute('alt', `Logo of ${business.name}`);
         businessLogo.setAttribute('loading','lazy');
 
+        businessWeb.appendChild(businessLogo);
         cardHolder.appendChild(businessName);
         cardHolder.appendChild(businessAddress);
         cardHolder.appendChild(businessPhone);
         cardHolder.appendChild(businessWeb);
-        cardHolder.appendChild(businessLogo);
+        //cardHolder.appendChild(businessLogo);
 
         cards.appendChild(cardHolder);
         

@@ -587,3 +587,50 @@ form label.top input:required:valid {
 .membership-description {
     display: none;
 }
+
+/*This section is for the Directory page*/
+
+.directory .cards h4 {
+    font-size:1.5rem;
+    margin: .5rem 0;
+}
+
+.directory .cards h3 {
+    font-size:1.5rem;
+    margin: .5rem 0;
+}
+
+.directory .cards h2 {
+    font-size:1.5rem;
+    margin: .5rem 0;
+}
+
+.directory .cards a {
+    font-size:1.2rem;
+    margin: .5rem 0;
+    text-decoration:none;
+    color: black;
+}
+
+.directory .cards {
+    display: grid;
+    grid-template-columns:1fr;
+}
+
+.grid-display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem auto;
+    border: 3px solid black;
+    width: 60%;
+    padding: 1rem 1rem;
+}
+
+.grid-display img {
+    display:block;
+    width: 50%;
+    margin:.5rem auto;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
