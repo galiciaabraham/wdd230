@@ -625,6 +625,7 @@ form label.top input:required:valid {
     border: 3px solid black;
     width: 60%;
     padding: 1rem 1rem;
+    background-color: #748386;
 }
 
 .grid-display img {
