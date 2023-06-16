@@ -145,6 +145,18 @@
         opacity: .8;
     }
 
+/*This section is for the Directory page*/
+
+.directory .grid-type {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+button:hover {
+    background-color: #f6f7eb;
+    color: #8C2F39;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+}
+
 
     
 }

@@ -160,4 +160,18 @@ form label.memberships {
     display: block;
 }
 
+/*This is for the directory page*/
+
+
+
+.list-type div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin: 2rem auto;
+}
+
+
 }

@@ -2,10 +2,13 @@ const url = 'https://galiciaabraham.github.io/wdd230/chamber/data.json';
 
 const displayBusiness = (businesses) => {
     const cards = document.querySelector('.cards');
+    cards.classList.add('grid-type');
+
 
     businesses.forEach((business) => {
         let cardHolder = document.createElement('div');
         cardHolder.setAttribute('class','grid-display');
+        cardHolder.classList.add('card-holder');
         let businessName = document.createElement('h2');
         let businessAddress = document.createElement('h3');
         let businessPhone = document.createElement('h4');
@@ -49,3 +52,23 @@ async function getBusinessData(url) {
 };
 
 getBusinessData(url);
+
+
+const gridButton = document.querySelector('.grid-button');
+const listButton = document.querySelector('.list-button');
+const container = document.querySelector('.cards');
+
+
+
+gridButton.addEventListener("click",() =>{
+    container.classList.add('grid-type');
+    container.classList.remove('list-type');
+
+});
+
+listButton.addEventListener("click",()=>{
+    container.classList.add('list-type');
+    container.classList.remove('grid-type');
+
+});
+
