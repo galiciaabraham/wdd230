@@ -5,6 +5,7 @@
                 "address": "123 Street 45 N 89346 Juarez, Chihuahua",
                 "phone": "656 1434 1335",
                 "website": "www.mexican-burritos.com.mx",
+                "level":"gold",
                 "imageurl": "https://galiciaabraham.github.io/wdd230/chamber/images/mexicanburritoslogo.webp"
             },
             {
@@ -12,6 +13,7 @@
                 "address" : "1110 North 678 S 91823 Juarez, Chihuahua",
                 "phone" : "656 3813 4819",
                 "website" : "www.togas.com",
+                "level":"gold",
                 "imageurl" : "https://galiciaabraham.github.io/wdd230/chamber/images/togaseuropa.webp"
             },
             {
@@ -19,6 +21,7 @@
                 "address": "1018 Olive Street 835675 Juarez, Chihuahua",
                 "phone": "656 148 67293",
                 "website": "www.thunderjab.com",
+                "level":"gold",
                 "imageurl": "https://galiciaabraham.github.io/wdd230/chamber/images/thunderjabdir.webp"
         },
         {
@@ -26,6 +29,7 @@
             "address": "187 Apple Cider 891235 Juarez, Chihuahua",
             "phone": "656 4901 3481",
             "website": "www.breakfastparting.com",
+            "level":"silver",
             "imageurl": "https://galiciaabraham.github.io/wdd230/chamber/images/breakfast.webp"
         },
         {
@@ -33,6 +37,7 @@
             "address": "143 Grapefruit 85555 Juarez, Chihuahua",
             "phone": "656 9130 3487",
             "website": "www.troxedgroup.com",
+            "level":"silver",
             "imageurl": "https://galiciaabraham.github.io/wdd230/chamber/images/trouxe.webp"
         },
         {
@@ -40,6 +45,7 @@
             "address": "123 Cedar hills 875312 Juarez, Chihuahua",
             "phone": "656 6575 6294",
             "website": "www.paulinepop.com",
+            "level":"bronze",
             "imageurl": "https://galiciaabraham.github.io/wdd230/chamber/images/pauline.webp"
         },
         {
@@ -47,6 +53,7 @@
             "address": "127 Halpert St 42335 Juarez, Chihuahua",
             "phone": "656 4901 3231",
             "website": "www.yoursupplier.com",
+            "level":"bronze",
             "imageurl": "https://galiciaabraham.github.io/wdd230/chamber/images/officesupplies.webp"
         },
         {
@@ -54,6 +61,7 @@
             "address": "193 Pacific Dr 523522 Juarez, Chihuahua",
             "phone": "656 1111 4444",
             "website": "www.bottlingmetal.com",
+            "level":"bronze",
             "imageurl": "https://galiciaabraham.github.io/wdd230/chamber/images/metalbottle.webp"
         },
         {
@@ -61,6 +69,7 @@
             "address": "123 Safety Rd 123456 Juarez, Chihuahua",
             "phone": "656 1131 3131",
             "website": "www.drainedideas.com",
+            "level":"bronze",
             "imageurl": "https://galiciaabraham.github.io/wdd230/chamber/images/gotyoucovered.webp"
         }
     ]
