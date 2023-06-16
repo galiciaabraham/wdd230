@@ -593,16 +593,20 @@ form label.top input:required:valid {
 .directory .cards h4 {
     font-size:1.5rem;
     margin: .5rem 0;
+    color: #f6f7eb;
 }
 
 .directory .cards h3 {
     font-size:1.5rem;
     margin: .5rem 0;
+    color: #f6f7eb;
 }
 
 .directory .cards h2 {
     font-size:1.5rem;
     margin: .5rem 0;
+    color: #f6f7eb;
+
 }
 
 .directory .cards a {
@@ -622,7 +626,8 @@ form label.top input:required:valid {
     flex-direction: column;
     text-align: center;
     margin: 1rem auto;
-    border: 3px solid black;
+    border-radius:10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     width: 60%;
     padding: 1rem 1rem;
     background-color: #748386;
@@ -634,4 +639,5 @@ form label.top input:required:valid {
     margin:.5rem auto;
     border-radius:10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    opacity: .8;
 }
