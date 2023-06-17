@@ -648,11 +648,9 @@ form label.top input:required:valid {
     margin: 1rem 1rem;
     border-radius:10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-    width: 90%;
+    width: 85%;
     padding: 1rem 1rem;
     background-color: #748386;
-    justify-content: left;
-    flex-wrap: wrap;
 }
 
 .list-type img {
