@@ -1,0 +1,59 @@
+header {
+    background-color: #020887;
+    color: #EBEBEB;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    margin:0 auto;
+    padding: 2rem 1rem;
+}
+
+body {
+    background-color: #647AA3;
+}
+
+footer {
+    background-color: #020887;
+    color: #EBEBEB;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    font-family: 'Questrial', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: #334195;
+    color: #EBEBEB;
+}
+
+main div p {
+    font-size: 1.5rem;
+}
+
+main div a {
+    color: #EBEBEB;
+}
+
+main div span {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+main div img {
+    width: 20%;
+}
+

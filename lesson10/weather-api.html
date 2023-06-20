@@ -5,15 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather API Page - WDD230 BYU Idaho - Abraham Galicia</title>
     <meta name="description" content="This is the page for the weather API activity of the WDD230 Course of BYU Idaho">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="./styles/base.css">
 </head>
 <body>
-    <h1>OpenWeatherMap.org API Test</h1>
-    <p>The current temprature in Fairbanks, Alaska is <span id="current-temp"></span>°F</p>
-    <h2>Curretn Condition Icon</h2>
-    <figure>
-        <img src="" alt="" id="weather-icon">
-        <figcaption></figcaption>
-    </figure>
+    <header>
+        <h1>OpenWeatherMap.org API Test</h1>
+    </header>
+    <main>
+        <div>
+            <p>Data taken from <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>
+            <p>The current temprature in Fairbanks, Alaska is <span id="current-temp"></span>°F</p>
+            <h2>Current Condition Icon</h2>
+            <figure>
+                <img src="" alt="" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="copyright-year"></span> .:|:. Abraham Galicia .:|:. Mexico</p>
+        <p id="last-updated"></p>
+    </footer>
     <script src="scripts/weatherapi.js"></script>
+    <script src="../scripts/main.js"></script>
 </body>
 </html>
