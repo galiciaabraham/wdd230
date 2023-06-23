@@ -20,6 +20,14 @@ function displayResults (weatherData) {
     temperature.textContent = `${weatherData.main.temp.toFixed(1)}`;
     
     let weatherIconAlt = `${weatherData.weather[0].description}`;
+    let altArray = weatherIconAlt.split(" ");
+
+    for(let i = 0; i < altArray.length; i++) {
+        altArray[i] = altArray[i][0].toUpperCase() + altArray[i].substr(1);
+    };
+
+    weatherIconAlt = altArray.join(" ");
+    
     let weatherIconSrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     weatherIcon.setAttribute('src', weatherIconSrc);
     weatherIcon.setAttribute('alt', weatherIconAlt);
