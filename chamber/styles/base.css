@@ -238,10 +238,11 @@ body {
 }
 
 #News p {
-    margin: 0 auto;
+    margin: .5rem 1rem;
     text-align: justify;
     padding: .5rem .5rem;
 }
+
 #Spotlights {
     background-color: #748386;
     border: none;
@@ -278,7 +279,6 @@ body {
 #Join {
     display: none;   
 }
-
 
 #Event {
     order: -4;
@@ -328,10 +328,13 @@ body {
 
 }
 
-#cloud-emoji {
-    grid-column: 1/3;
-    font-size: 5rem;
-    margin: 0 auto;
+#Weather figure {
+    width: 100%;
+    margin: 1rem 1.5rem;
+}
+
+#Weather img {
+    width: 100%;
 }
 
 .temperature {
@@ -522,6 +525,10 @@ form label.memberships {
     padding: 1rem;
     font-weight: 900;
     
+}
+
+.description {
+    padding: .5rem .5rem;
 }
 
 textarea {
