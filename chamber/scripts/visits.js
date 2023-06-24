@@ -15,7 +15,7 @@ let latestVisitLs = Number(window.localStorage.getItem("lastVisit-ls"))
 localStorage.setItem('lastVisit-ls', todayInMs.toString());
 
 //calculate time elapsed between the last visit and today in miliseconds
-let lastVisitInDays = (latestVisitLs - todayInMs) / msToDays;
+let lastVisitInDays = (todayInMs - latestVisitLs) / msToDays;
 function calculateDays() {
     let visitInDays = Math.round(lastVisitInDays);
     lastVisitSpan.textContent = `You visited the site ${visitInDays} days ago`;
