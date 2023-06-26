@@ -93,6 +93,15 @@
         grid-row: 1/3;
     }
 
+    #Hero picture {
+        padding-top: 6rem;
+    }
+
+    #Hero div {
+        left: 3rem;
+        bottom: 9rem;
+    }
+
 
     #News {
         grid-column: 2/4;
