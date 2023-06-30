@@ -20,7 +20,7 @@ const displayBusiness = (businesses) => {
         businessPhone.textContent = `Phone number: ${business.phone}`;
         
         businessWeb.textContent = `${business.website}`;
-        businessWeb.setAttribute('href',`${business.website}`);
+        businessWeb.setAttribute('href',`#`);
 
         businessLogo.setAttribute('src', business.imageurl);
         businessLogo.setAttribute('alt', `Logo of ${business.name}`);
