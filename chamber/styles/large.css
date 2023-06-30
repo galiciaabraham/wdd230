@@ -46,7 +46,7 @@
 
     #today {
         grid-column: 1/7;
-        word-spacing: 2em;
+        word-spacing: .5em;
     }
 
     .break-1, .break-2 {
@@ -78,9 +78,9 @@
         grid-row: 2/3;
     }
 
-    .temperature {
-        font-size: 3vw;
-
+    p.temperature {
+        font-size: 2.5vw;
+        padding: .5rem 1rem;
     }
 
     #Join {
@@ -111,6 +111,7 @@
     #Spotlights {
         grid-column: 4/5;
         grid-row: 1/4;
+        height: 95%;
         flex-direction: column;
         justify-content: space-around;
         margin-top: 2rem;

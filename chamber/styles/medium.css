@@ -98,7 +98,6 @@
         color: #f6f7eb;
         text-align: center;
         padding: 1rem 1rem;
-        font-size: 1.2rem;
     }
     #Event {
         order: -1;
@@ -114,7 +113,7 @@
 
     
     
-    .temperature {
+    p.temperature {
         grid-column: 3/5;
         font-size: 4vw;
         font-weight: 800;

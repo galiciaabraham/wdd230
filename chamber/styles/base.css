@@ -63,6 +63,11 @@ header h2 {
 
 }
 
+main {
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
 #today {
     font-size: 1.5rem;
 }
@@ -75,7 +80,7 @@ header h2 {
 
 #hamburger {
     color: #f6f7eb;
-    background-color: #8C2F39;
+    background-color: #802c35;
     border: none;
     font-size: 2rem;
     width: 100%;
@@ -121,6 +126,10 @@ header li a:hover{
 
 }
 
+nav {
+    background-color: #802c35;
+}
+
 nav ul {
     list-style: none;
     padding-left: 0;
@@ -160,6 +169,11 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
+}
+
+.home-page p {
+    font-size: 1.2rem;
 
 }
 
@@ -335,7 +349,7 @@ body {
     width: 100%;
 }
 
-.temperature {
+p.temperature {
     grid-column: 3/5;
     font-size: 3rem;
     font-weight: 800;
