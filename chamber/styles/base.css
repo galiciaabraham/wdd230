@@ -190,6 +190,18 @@ body {
     border-radius: 10px;
 }
 
+.hero-message {
+    background-color: #8C2F39;
+    color: #f6f7eb;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
+}
+
 #Hero picture {
     display: block;
     opacity: 0.65;
@@ -310,7 +322,6 @@ body {
 
 #Event h3 {
     text-align: center;
-    text-shadow: 0 0 3px #f6f7eb, 0 0 5px #8C2F39;
     font-size: 2rem;
     margin: 10px auto;
 }
