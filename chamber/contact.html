@@ -47,21 +47,18 @@
         </nav>
     </header>
 
-    <main class="join">
+    <main class="contact">
+
 
         <form method="get" action="thankyou.html">
 
-            <fieldset class="p-info">
+            <fieldset class="p-info-contact">
 
-                <legend>Applicant Details</legend>
+                <legend>Contact details</legend>
 
                 <label class="top">First Name*:<input type="text" name="fname" required pattern="^[A-Za-z .-]*[A-Za-z]$" maxlength="40"></label>
 
                 <label class="top">Last Name*:<input type="text" name="lname" required ></label>
-
-                <label class="top">Business Name: <input type="text" name="bname" pattern="^[A-Za-z .-]*[A-Za-z]$" maxlength="40" minlength="7" required></label>
-                
-                <label class="top">Business Position:<input type="text" name="bposition"></label>
 
                 <label class="top">Email*:<input type="email" name="email" placeholder="someone@email.com" required></label>
 
@@ -69,61 +66,59 @@
 
             </fieldset>
         
-            <fieldset class="membership-selection">
+            <fieldset class="membership-question">
 
-                <legend>Membership selection</legend>
-                <div>Select your Membership</div>
+                <legend>Are you a member of the chamber?</legend>
+                <div>Please indicate so.</div>
 
-                <div class="notice">*This memberships have increasing costs as well as increased benefits per level like trainings, advertising (like on the home page spotlights), event discounts, etc.*</div>
+                <label class="memberships"><input type="radio" name="membership" value="Yes">Yes</label>
 
-                <label class="memberships"><input type="radio" name="membership" value="Gold Level">Gold Level</label>
-
-                <label class="memberships"><input type="radio" name="membership" value="Silver Level">Silver Level</label>
+                <label class="memberships"><input type="radio" name="membership" value="No">No</label>
                 
-                <label class="memberships"><input type="radio" name="membership" value="Bronze Level">Bronze Level</label>
-                    
-                <label class="memberships"><input type="radio" name="membership" value="Non-Profit Membership">Non-Profit Membership</label>
+                <a href="join.html">I would like to become a member</a>
 
             </fieldset>
         
-            <fieldset class="description">
-                <legend>Business Description</legend>
+            <fieldset class="my-inquiry">
+                <legend>My Inquiry</legend>
 
-                <label class="dsc"><textarea name="business-description" placeholder="Write a short description of your business in 200 words or less..." minlength="50" maxlength="200"></textarea></label>
+                <label class="inquiry"><textarea name="inquiry" placeholder="Write your comment, sugestion or question, we will contact you via email or phone number..."></textarea>
+                </label>
                 
                 <label class="submission-date"><input type="hidden" id="completed-date" name="completed-date" value=""></label>
 
 
             </fieldset>
             
-            <input type="submit" value="Join The Chamber" class="submitBtn">
+            <input type="submit" value="Contact" class="submitBtn">
 
-            </form>    
-        
-            <div class="membership-description">
-                <p>*<b>Non-Profit Membership:</b> This membership has no cost and is reserved for Non-Profit businesses for further information on this membership, its advantages and limitations please contact us at <b>info@riochamber.org</b></p>
+            </form>
 
-                <p><b>Gold Level:</b> Gold Members are guaranteed to have exclusive discounts, increased benefits and best-spots on our advertising and events $19.99/Monthly subscription </p>
+            <div class="contact-card">
+                <h2>Contact Us</h2>
+                <p>Address: Rio Grande Chamber of Commerce, Ciudad Juárez, Chihuahua</p>
+                <p>Email: info@riochamber.org</p>
+                <p>Phone Number: (+52) 656 154 8920</p>
 
-                <p><b>Silver Level:</b> Silver Members are elegible for exclusive discounts and benefits includes preferencial treatment on events and advertising $15.99/Monthly subscription </p>
-
-                <p><b>Bronze Level:</b> Bronze Members are elegible for discounts and benefits based on availability and general guidelines $5.99/Monthly subscription *</p>
+                <h3>For membership questions and issues</h3>
+                <p>Please send an email to membership@riochamber.org</p>
+                
             </div>
 
     </main>
     <footer>
-        <section class="foot-1">
+        <div class="foot-1">
         <a href="index.html"><img src="images/RioGrandeChamberofCommerce.webp" alt="This is the logo for the site"></a>
         <p>Rio Grande Chamber of Commerce</p>
         <p>Ciudad Juárez, Chihuahua</p>
         <p>info@riochamber.org</p>
         <p>(+52) 656 154 8920</p>
         <a class="map-pin" href="https://goo.gl/maps/S5dtM1FB8SQVx9Jm7">&#128205; Location Map</a>
-        </section>
+        </div>
         <hr>        
-        <section class="foot-2">
+        <div class="foot-2">
         <p>&copy;<span id="copyright-year"></span> Rio Grande Chamber | <b>Abraham Galicia </b> | WDD230 Project | <span id="last-updated"></span> </p>
-        </section>
+        </div>
     </footer>
 
     <script src="../scripts/main.js"></script>
