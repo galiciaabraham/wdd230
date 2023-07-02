@@ -38,7 +38,6 @@
         grid-column: 1/4;
         order: -4;
     }
-
     
     #Spotlights {
         height: fit-content;
@@ -48,11 +47,7 @@
 
     }
 
-    .spot-1 {
-        flex: 1;
-    }
-
-    .spot-2{
+    .spot {
         flex: 1;
     }
     
@@ -61,7 +56,9 @@
         order: -2;
         grid-column: 1/4;
         background-color: #748386;
+        border-radius: 10px;
         border: none;
+        margin: 10px 10px;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     }
 

@@ -269,12 +269,13 @@ body {
 
 #Spotlights {
     background-color: #748386;
-    border: none;
+    border-radius: 10px;
+    margin: 10px 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
 
-#Spotlights article {
+#Spotlights div {
     border-radius: 10px;
     margin: 10px 10px;
     padding: 1rem 1rem;
@@ -296,7 +297,7 @@ body {
     border-radius: 10px;
 }
 
-.spot-3 {
+#spotlights div:nth-of-type(3) {
     display: none;
 }
 
