@@ -7,5 +7,3 @@ const submissionInput = label.querySelector('input');
 let submissionInputValue = submissionInput.value;
 
 submissionInputValue = submissionTimeValue;
-
-console.log(submissionInputValue);
