@@ -8,7 +8,7 @@ const displaySpotlights = (topbusinesses) => {
         let businessWeb = document.createElement('a');
         let businessLogo = document.createElement('img');
         
-        businessName.textContent = `Business Name: ${business.name}`;
+        businessName.textContent = `${business.name}`;
         
         businessWeb.textContent = `${business.website}`;
         businessWeb.setAttribute('href',`#`);
