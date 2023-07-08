@@ -1,133 +1,68 @@
 /*This section is for the home page*/
-.banner {
-    display: grid;
-    grid-template-columns: 1fr 30px;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    height: 10px;
-
-}
-.banner p {
-    background-color: #f6f7eb;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    padding: 10px 0;
-}
-
-.close {
-    border: none;
-}
-
-.no-tuesday {
-    display: none;
-}
 
 header {
-    background-color: #8C2F39 ;
-    color: #f6f7eb;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #4E6E5D;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header-contact {
+    font-family: Amatic SC, cursive, serif;
+    font-size: 5vw;
+    color: white;
+    grid-column: 2/4;
+    grid-row: 1/2;
     text-align: center;
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
 }
 
-.header-titles {
-    flex: 1;
-    padding: 1rem .5rem;
-}
-
-header h1 {
-    padding-top: 2rem;
-    font-size: 3em;
-    margin: 0 auto;
-}
-
-header h2 {
-    font-size: 1.5em;
-    margin: 0 auto;
+.header-contact a {
+    color: white;
 }
 
 .social-media {
-    margin-bottom: 10px ;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    
 }
 
-.social-media img {
-    flex: 2;
-    width: 2rem;
-    margin: .5rem .5rem;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
+.social-media img{
+    margin-top: 5rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+    border-radius: 10px;
+    width: 70%;
 }
 
-main {
-    max-width: 85rem;
-    margin: 0 auto;
-}
-
-#today {
-    font-size: 1.5rem;
-}
-
-#header-logo img {
-    flex: 3;
-    float:left;
-    width: 40%;
-}
-
-#hamburger {
-    color: #f6f7eb;
-    background-color: #802c35;
-    border: none;
-    font-size: 2rem;
-    width: 100%;
-}
-
-#hamburger:hover {
-    background-color: #f6f7eb;
-    color: #8C2F39;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.break {
-    display: none;
-}
-
-.break-2 {
-    flex-basis: 100%;
-    height: 0;
-}
 
 header nav {
     width: 100%;
+    grid-column: 1/4;
 }
 
 nav ul li a.active {
-    background-color: #f6f7eb;
-    color: #8C2F39;
+    background-color: white;
+    color: #4E6E5D;
 }
 
 header li a {
     display: block;
     text-decoration: none;
-    font-size: 2rem;
-    color: #f6f7eb;
-    padding: .5rem;
     text-align: center;
 }
 
 header li a:hover{
-    background-color: #f6f7eb;
-    color: #8C2F39;
+    background-color:white;
+    color: #4E6E5D;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
-}
-
-nav {
-    background-color: #802c35;
 }
 
 nav ul {
@@ -138,6 +73,21 @@ nav ul {
 
 nav ul.open {
     display: block;
+}
+
+/*Hamburguer button properties*/
+#hamburger {
+    border: none;
+    background-color: #4E6E5D;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+}
+
+#hamburger:hover {
+    background-color: #BBC5AA;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 #hamburger span:nth-child(1) {
@@ -154,356 +104,7 @@ nav ul.open {
     display: none;
 }
 
-
-h2, h3, h4 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-
-body {
-    font-family: 'Questrial', sans-serif;
-    background-color: #f6f7eb;
-    color:#1F271B ;
-}
-
-.home-page {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-
-.home-page p {
-    font-size: 1.2rem;
-
-}
-
-.home-page section {
-    border-radius: 10px;
-    border: 5px solid #1F271B;
-    margin: 10px 10px;
-}
-
-#Hero {
-    position: relative;
-    order: -5;
-    border: none;
-    border-radius: 10px;
-}
-
-.hero-message {
-    background-color: #8C2F39;
-    color: #f6f7eb;
-    font-size: 2rem;
-    text-align: center;
-    padding: 1rem 2rem;
-    margin: 2rem auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-
-}
-
-#Hero picture {
-    display: block;
-    opacity: 0.65;
-    border-radius: 10px;
-
-}
-
-#Hero picture img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-
-}
-
-
-#Hero div {
-    position: absolute;
-    bottom: 1rem;
-	left: 2rem;
-    background-color:#748386;
-    width: 10rem;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding: .5rem .5rem;
-
-}
-
-#Hero div a {
-    display: block;
-    text-decoration: none;
-    color: #f6f7eb;
-    font-size: 1.5rem;
-}
-
-#Hero div a:hover {
-
-    color: #748386;
-    background-color:#f6f7eb ;
-    font-weight: 600;
-}
-
-#Hero div:hover {
-    background-color:#f6f7eb ;
-}
-
-#News {
-    background-color: #8C2F39;
-    color: #f6f7eb;
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-#News h3 {
-    text-align: center;
-    margin: 10px auto;
-    font-size: 2rem;
-}
-
-#News p {
-    margin: .5rem 1rem;
-    text-align: justify;
-    padding: .5rem .5rem;
-}
-
-#Spotlights {
-    background-color: #748386;
-    border-radius: 10px;
-    margin: 10px 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
-}
-
-#Spotlights div {
-    padding: 1rem 1rem;
-}
-
-.spot h2 {
-    text-align: center;
-    color: #1F271B;
-    margin: .1rem .1rem;
-}
-
-.spot a {
-    display: block;
-    text-align: center;
-    color: #f6f7eb;
-}
-
-
-.spot img {
-    display: block;
-    width: 70%;
-    margin: 0 auto;
-    border-radius: 10px;
-    opacity: .8;
-
-}
-
-
-#Spotlights div:nth-of-type(3) {
-    display: none;
-}
-
-#Join {
-    display: none;   
-}
-
-#Event {
-    order: -4;
-    background-color: #748386;
-    border:none;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-
-}
-
-#Event img {
-    display: block;
-    margin: 10px auto;
-    width: 95%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-}
-
-#Event h3 {
-    text-align: center;
-    font-size: 2rem;
-    margin: 10px auto;
-}
-
-#Event p {
-    color: #f6f7eb;
-    text-align: justify;
-    padding: .5rem  .5rem;
-
-}
-
-#Weather {
-    order: -3;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    background-color: #8C2F39;
-    color: #f6f7eb;
-    border: none;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-
-}
-
-#Weather h3 {
-    grid-column: 1/5;
-    margin: 10px auto;
-    font-size: 2rem;
-
-}
-
-#Weather figure {
-    width: 100%;
-    margin: 1rem 1.5rem;
-}
-
-#Weather img {
-    width: 100%;
-}
-
-p.temperature {
-    grid-column: 3/5;
-    font-size: 3rem;
-    font-weight: 800;
-}
-
-.weather-summary {
-    grid-column: 2/5;
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin:0 auto;
-
-}
-
-#Weather hr {
-    grid-column: 1/5;
-    width: 90%;
-}
-
-.wind-speed {
-    grid-column: 1/5;
-    margin:0 auto;
-}
-
-.wind-chill {
-    grid-column: 1/5;
-    margin:0 auto;
-    padding-bottom: 10px;
-}
-
-footer img {
-    width:40% ;
-}
-
-footer {
-    background-color: #8C2F39 ;
-    color: #f6f7eb;
-    font-family: 'Questrial', sans-serif;
-}
-
-.foot-2 {
-    padding-bottom: 10px;
-}
-
-footer p {
-    text-align: center;
-    margin-bottom: 0;
-
-}
-
-.map-pin {
-    padding-top: 10px;
-    text-decoration: none;
-    color: #f6f7eb;
-}
-
-
-footer a {
-    text-align: center;
-    display: block;
-    
-}
-
-/*This section is for the discover page*/
-
-.discover h3 {
-    text-align: center;
-    font-size: 2rem;
-}
-
-.discover h2 {
-    text-align: center;
-    font-size: 3rem;
-}
-
-.discover p {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.discover picture {
-    display: block;
-}
-
-.demographics-3 picture img {
-    display: block;
-    max-width: 80%;
-    margin: 2rem auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-    opacity: .8;
-}
-
-.discover-pictures {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.discover-pictures picture {
-    display: block;
-    width: 80%;
-    margin: 0 auto;
-
-}
- .discover-pictures picture img {
-    display: block;
-    width: 100%;
-    margin: 2rem auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
-
- }
-
-.picture-name {
-    text-align: center;
-    font-size: 2rem;
-    background-color: #748386;
-    color: #f6f7eb;
-}
-
-.picture-description {
-    padding: 1rem 3rem;
-}
-
-.final-line {
-    background-color: #748386;
-    height: 2rem;
-    margin-bottom: 3rem;
-}
-
-.final-line span {
-    color: #f6f7eb;
-    display: block;
-    text-align: center;
-    padding: .5rem 1rem;
-}
-
-/*This is for the Join page form */
+/*This section is for the Fresh Page*/
 
 form {
     margin: 2rem .5rem;
