@@ -35,16 +35,16 @@ header {
 }
 
 .social-media img{
-    margin-top: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
     border-radius: 10px;
     width: 70%;
 }
 
-
 header nav {
+    /*grid-column: 1/4;*/
     width: 100%;
-    grid-column: 1/4;
 }
 
 nav ul li a.active {
@@ -54,6 +54,10 @@ nav ul li a.active {
 
 header li a {
     display: block;
+    grid-column: 1/4;
+    color: white;
+    font-family: Amatic SC, cursive, serif;
+    font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
 }
@@ -65,13 +69,13 @@ header li a:hover{
 
 }
 
-nav ul {
+ul.home-nav {
     list-style: none;
     padding-left: 0;
     display: none;
 }
 
-nav ul.open {
+ul.home-nav.open {
     display: block;
 }
 
@@ -81,7 +85,6 @@ nav ul.open {
     background-color: #4E6E5D;
     color: white;
     font-size: 2rem;
-    width: 100%;
 }
 
 #hamburger:hover {
