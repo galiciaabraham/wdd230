@@ -43,13 +43,13 @@ header {
 }
 
 header nav {
-    /*grid-column: 1/4;*/
+    grid-column: 1/4;
     width: 100%;
 }
 
 nav ul li a.active {
-    background-color: white;
-    color: #4E6E5D;
+    background-color: #BBC5AA;
+    color: black;
 }
 
 header li a {
@@ -63,8 +63,8 @@ header li a {
 }
 
 header li a:hover{
-    background-color:white;
-    color: #4E6E5D;
+    background-color:#BBC5AA;
+    color: black;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
 }
@@ -77,20 +77,16 @@ ul.home-nav {
 
 ul.home-nav.open {
     display: block;
+    grid-column: 1/4;
 }
 
 /*Hamburguer button properties*/
 #hamburger {
+    width: 100%;
     border: none;
     background-color: #456152;
     color: white;
     font-size: 2rem;
-}
-
-#hamburger:hover {
-    background-color: #BBC5AA;
-    color: black;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 #hamburger span:nth-child(1) {
@@ -105,6 +101,123 @@ ul.home-nav.open {
 }
 #hamburger.open span:nth-child(1) {
     display: none;
+}
+
+body {
+    background-color: #BBC5AA;
+}
+
+.homepage picture {
+    display: block;
+}
+
+.homepage picture img {
+    display: block;
+    width: 90%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4) ;
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+
+.special-box {
+    background-color: #6C464F;
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4) ;
+    border-radius: 5px;
+}
+
+.special-box p {
+    text-align: center;
+    color: white;
+    font-family: Indie Flower, cursive;
+    font-size: 2.5rem;
+    
+}
+
+.order-button {
+    background-color: #6C464F;
+    margin: 2rem 2rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4) ;
+    border-radius: 5px;
+}
+
+.order-button a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Indie Flower, cursive;
+    font-size: 2.5rem;
+    padding: 2rem .5rem;
+}
+
+.order-button a:hover {
+    background-color: #456152;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.dsc-1 {
+    font-family: Indie Flower, cursive;
+    font-size: 1.2rem;
+    color: black;
+    text-align: justify;
+    padding: 2rem 2rem;
+}
+
+.weather {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #456152;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+
+.weather h3 {
+    grid-column: 1/5;
+    margin: 10px auto;
+    font-family: Amatic SC, cursive;
+    font-size: 2rem;
+
+}
+
+.weather figure {
+    width: 100%;
+    margin: 1rem 1.5rem;
+}
+
+.weather img {
+    width: 100%;
+}
+
+p.temperature {
+    font-family: Amatic SC, cursive;
+    grid-column: 3/5;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.weather-summary {
+    font-family: Amatic SC, cursive;
+    grid-column: 2/5;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin:0 auto;
+
+}
+
+.humidity {
+    font-family: Amatic SC, cursive;
+    font-size: 2rem;
+    grid-column: 1/5;
+    margin:0 auto;
+    padding-bottom: 10px;
 }
 
 /*This section is for the Fresh Page*/
