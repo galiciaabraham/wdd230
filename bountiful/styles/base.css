@@ -40,6 +40,7 @@ header {
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
     border-radius: 10px;
     width: 70%;
+    max-width: 40px;
 }
 
 header nav {
@@ -159,12 +160,20 @@ body {
 
 }
 
-.dsc-1 {
+p.dsc-1{
     font-family: Indie Flower, cursive;
     font-size: 1.2rem;
     color: black;
     text-align: justify;
     padding: 2rem 2rem;
+}
+
+.dsc-2 {
+    display: none;
+}
+
+picture.ca-2 {
+    display: none;
 }
 
 .weather {
@@ -177,6 +186,13 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     margin: 2rem auto;
     border-radius: 5px;
+}
+
+.today-forecast {
+    grid-column: 1/5;
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .weather h3 {
@@ -203,7 +219,7 @@ p.temperature {
     font-weight: 800;
 }
 
-.weather-summary {
+.weather-summary-1 {
     font-family: Amatic SC, cursive;
     grid-column: 2/5;
     font-size: 1.5rem;
@@ -218,6 +234,27 @@ p.temperature {
     grid-column: 1/5;
     margin:0 auto;
     padding-bottom: 10px;
+}
+
+.threeday-forecast {
+    display: none;
+}
+
+picture.ca-3 {
+    display: none;
+}
+
+footer {
+    background-color: #456152;
+    color: white;
+    text-align: center;
+    font-family: Indie Flower, cursive;
+    font-size: 1.2rem;
+}
+
+footer p {
+    margin: 0 0;
+    padding: 1rem 1rem;
 }
 
 /*This section is for the Fresh Page*/

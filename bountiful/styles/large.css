@@ -1,4 +1,50 @@
 @media screen and (min-width: 64em) {
 
+header {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.logo img {
+    max-width: 50%;
+}
+
+.header-contact {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.social-media {
+    grid-column: 4/5;
+}
+
+.social-media img {
+    margin-top: 1rem;
+}
+
+header nav {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 5rem;
+}
+
+ul.home-nav li {
+    margin: .5rem 1rem;
+}
+
+#hamburger {
+    display: none;
+}
+
+nav ul.home-nav {
+    display: block;
+}
+
+.weather {
+    grid-column: 1/4;
+}
+picture.ca-3 {
+    display: block;
+    grid-column: 4/5;
+}
 
 }
