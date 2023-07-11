@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods CA - WDD230 - Abraham Galicia</title>
+    <meta name="description" content="This is the homepage of Bountiful Food Business.">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">   
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css"> 
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/bountifullogo.avif" alt="Bountiful Foods Logo"></a>
+
+        <p class="header-contact">(+1) 842 1923 4859 || <a href="https://goo.gl/maps/skLcM5jZzUGg8SXv5">1723 Eucalyptus Ave, Encinitas, CA 92024, USA</a></p>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/"><img src="images/facebook.avif" alt="This is a Facebook logo"></a>
+            <a href="https://www.twitter.com/"><img src="images/twitter.avif" alt="This is a Twitter logo"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.avif" alt="This is an Instagram logo"></a>
+        </div>
+
+        <nav>
+            <button id="hamburger"><span>&#9776;</span><span>&#10006;</span></button>
+            <ul class="home-nav">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="fresh.html" class="active">Fresh</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="fresh">
+        <h2 class="fresh-title">Order Fresh</h2>
+
+        <form method="post">
+            <fieldset class="p-info">
+                <legend>Contact Details</legend>
+                <label class="contact">First Name:<input type="text" name="fname" required pattern="^[A-Za-z .-]*[A-Za-z]$" maxlength="40"></label>
+                
+                <label class="contact">Last Name: <input type="text" name="lname" required></label>
+
+                <label class="contact">Email <input type="email" name="email" placeholder="john.doe@email.com" required></label>
+
+                <label class="contact">Phone:<input type="tel" name="phone" placeholder="1234554321" required></label>
+            </fieldset>
+
+            <fieldset class="fresh-options">
+                <legend>Pick your fruits</legend>
+                 <label  for="fruit-1" class="pick"><select name="fruit-1" id="fruit-1" required>
+                    <!--Will populate with the JSON file provided on the course <option value=""></option>-->
+                 </select></label>
+                 <label  for="fruit-2" class="pick"><select name="fruit-2" id="fruit-2" required>
+                    <!--Will populate with the JSON file provided on the course <option value=""></option>-->
+                 </select></label>
+                 <label  for="fruit-3" class="pick"><select name="fruit-3" id="fruit-3">
+                    <!--Will populate with the JSON file provided on the course <option value=""></option>-->
+                 </select></label>
+            </fieldset>
+
+            <fieldset class="instructions">
+                <legend>Specific Instructions</legend>
+                <label class="special-instructions"> <textarea name="special-instruction" id="special-instructions" maxlength="500"></textarea></label>
+            </fieldset>
+
+            <label class="submission-date"><input type="hidden" id="completed-date" name="completed-date" value=""></label>
+        </form>
+        
+        <button type="button" class="order-button">Order</button>
+
+    </main>
+    <footer>
+        <p>&copy;<span id="copyright-year"></span>Bountiful Foods || WDD230 || Abraham Galicia ||<span id="last-updated"></span></p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

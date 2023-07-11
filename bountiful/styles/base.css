@@ -279,14 +279,14 @@ form legend {
     background-color: #8C2F39;
 }
 
-form label.top , form div {
+form label.contact , form div {
     display: block;
     padding: 1rem .5rem;
     font-weight: 400;
 
 }
 
-form label.top input {
+form label.contact input {
     display: block;
     font-size: 1rem;
     border-radius: 4px;
