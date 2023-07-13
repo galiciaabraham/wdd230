@@ -279,7 +279,6 @@ form fieldset {
     margin: 2rem 1rem ;
     border: 4px dashed #456152;
     border-radius: 5px;
-    padding: 1rem 2rem;
 
 }
 
@@ -382,30 +381,71 @@ form label.contact input:required:valid {
     display: none;
 }
 
-/*This section is for the contact page*/
+/*This section is for the About Us page page*/
 
-.contact {
-    display: flex;
-    flex-direction: column;
+.about-us h2 {
+    font-family:Amatic SC, cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 5rem;
+    padding: 2rem 1rem;
+    background-color: #6C464F;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+
+.about-us p {
+    font-family: Indie Flower, cursive;
+    font-size: 1.2rem;
+    background-color: #456152;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 5px;
+    text-align: justify;
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+}
+
+.about-us picture {
+    display: block;
+}
+
+.about-us picture img {
+    display: block;
+    width: 90%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4) ;
+    border-radius: 5px;
+    margin: 2rem auto;
 }
 
 .contact-card {
     margin: 2rem 1rem ;
     border: 4px solid #748386;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: .5rem 2rem;
-    order: -1;
+    background-color: #456152;
 }
 
-.contact-card picture {
-    display: none;
+.contact-card p {
+    background-color: #BBC5AA;
+    color: black;
+    font-size: 1.2rem;
 }
 
-.my-inquiry {
-    padding: .5rem .5rem;
+.contact-card a {
+    color: black;
+
 }
 
-form a {
-    color: #1F271B;
-    padding-left: 2rem;
+.map {
+    display: block;
+    width: 80%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4) ;
+    border-radius: 5px;
+    margin: 2rem auto;
+}
+
+iframe {
+    width: 100%;
 }
