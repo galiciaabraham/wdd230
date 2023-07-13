@@ -101,5 +101,11 @@
         display: inline;
     }
 
+/*This section is for the Fresh Page*/
+
+.fresh-title {
+    margin: 1rem 15rem;
+}
+
     
 }

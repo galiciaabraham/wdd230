@@ -39,7 +39,7 @@
     </header>
 
     <main class="fresh">
-        <h2 class="fresh-title">Order Fresh</h2>
+        <h2 class="fresh-title">Order Fresh!</h2>
 
         <form method="post">
             <fieldset class="p-info">
@@ -68,14 +68,19 @@
 
             <fieldset class="instructions">
                 <legend>Specific Instructions</legend>
-                <label class="special-instructions"> <textarea name="special-instruction" id="special-instructions" maxlength="500"></textarea></label>
+                <label class="special-instructions"> <textarea name="special-instruction" id="special-instructions" maxlength="500" placeholder="Leave any specific instructions you might like in your specialty drink..."></textarea></label>
             </fieldset>
 
             <label class="submission-date"><input type="hidden" id="completed-date" name="completed-date" value=""></label>
         </form>
-        
+
         <button type="button" class="order-button">Order</button>
 
+        <div class="fruit-punch">
+            <picture class="punch-picture">
+                <img src="images/splashjuicelarge.webp" alt="California picture" loading="lazy">
+            </picture> 
+        </div>
     </main>
     <footer>
         <p>&copy;<span id="copyright-year"></span>Bountiful Foods || WDD230 || Abraham Galicia ||<span id="last-updated"></span></p>

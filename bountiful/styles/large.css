@@ -47,4 +47,38 @@ picture.ca-3 {
     grid-column: 4/5;
 }
 
+.fresh {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.fresh-title {
+    grid-column: 1/5;
+}
+
+.fresh form {
+    grid-column: 1/3;
+}
+
+.order-button {
+    grid-column: 1/5;
+}
+
+.fruit-punch {
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+
+.punch-picture {
+    display: block;
+}
+
+.punch-picture img {
+    display: block;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    margin: 2rem auto;
+    border-radius: 5px;
+}
+
 }
