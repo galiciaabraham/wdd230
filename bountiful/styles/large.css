@@ -47,6 +47,8 @@ picture.ca-3 {
     grid-column: 4/5;
 }
 
+/*This is for the Fresh page */
+
 .fresh {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -60,7 +62,7 @@ picture.ca-3 {
     grid-column: 1/3;
 }
 
-.order-button {
+.fresh button.order-button {
     grid-column: 1/5;
 }
 
@@ -79,6 +81,18 @@ picture.ca-3 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     margin: 2rem auto;
     border-radius: 5px;
+}
+
+/*This is for the About Us Page */
+
+.map {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    height: fit-content;
+}
+
+.contact-card {
+    grid-column: 4/6;
 }
 
 }
