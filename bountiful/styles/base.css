@@ -318,6 +318,7 @@ form label.contact input {
 form label.pick select {
     display: inline;
     padding: .1rem;
+    margin: .1rem 1rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     
@@ -359,9 +360,6 @@ button.order-button {
     font-size: 2rem;
 }
 
-button.order-button:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
-}
 
 form label.contact input:required {
     border-left: red solid 5px;
@@ -377,9 +375,18 @@ form label.contact input:required:valid {
     font-weight: 400;
     font-family: Indie Flower, cursive;
     font-size: 1.2rem;
+    margin: 1rem auto;
+    background-color: #456152;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+
 }
 
 .punch-picture {
+    display: none;
+}
+
+.fresh div.special-box {
     display: none;
 }
 

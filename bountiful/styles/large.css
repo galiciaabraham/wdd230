@@ -83,6 +83,14 @@ picture.ca-3 {
     border-radius: 5px;
 }
 
+.order-details {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+}
+
+
 /*This is for the About Us Page */
 
 .map {

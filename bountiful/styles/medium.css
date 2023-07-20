@@ -48,6 +48,10 @@
     .order-button {
         grid-column: 3/5;
     }
+
+    button.order-button:hover {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+    }
     
     picture.ca-1 {
         grid-column: 1/3;

@@ -41,50 +41,51 @@
     <main class="fresh">
         <h2 class="fresh-title">Order Fresh!</h2>
 
-        <form method="post">
+        <form id="fresh-form">
             <fieldset class="p-info">
                 <legend>Contact Details</legend>
-                <label class="contact">First Name:<input type="text" name="fname" required pattern="^[A-Za-z .-]*[A-Za-z]$" maxlength="40"></label>
+                <label class="contact">First Name:<input type="text" id="fname" name="fname" maxlength="40" required></label>
                 
-                <label class="contact">Last Name: <input type="text" name="lname" required></label>
+                <label class="contact">Last Name: <input type="text" id="lname" name="lname" required></label>
 
-                <label class="contact">Email <input type="email" name="email" placeholder="john.doe@email.com" required></label>
+                <label class="contact">Email <input type="email" id="email" name="email" placeholder="john.doe@email.com" required></label>
 
-                <label class="contact">Phone:<input type="tel" name="phone" placeholder="1234554321" required></label>
+                <label class="contact">Phone:<input type="tel" id="phone"  name="phone" placeholder="1234554321" required></label>
             </fieldset>
 
             <fieldset class="fresh-options">
                 <legend>Pick your fruits</legend>
-                 <label  for="fruit-1" class="pick">Pick your fruit number 1:<select name="fruit-1" id="fruit-1" required>
-                    <!--Will populate with the JSON file provided on the course <option value=""></option>-->
-                 </select></label>
-                 <label  for="fruit-2" class="pick">Pick your fruit number 2:<select name="fruit-2" id="fruit-2" required>
-                    <!--Will populate with the JSON file provided on the course <option value=""></option>-->
-                 </select></label>
-                 <label  for="fruit-3" class="pick">Pick your fruit number 3:<select name="fruit-3" id="fruit-3">
-                    <!--Will populate with the JSON file provided on the course <option value=""></option>-->
-                 </select></label>
+                 <label  for="fruit-1" class="pick">Pick your fruit number 1:<select id="fruit-1" name="fruit-1" required></select></label>
+                 <label  for="fruit-2" class="pick">Pick your fruit number 2:<select id="fruit-2" name="fruit-2" required></select></label>
+                 <label  for="fruit-3" class="pick">Pick your fruit number 3:<select id="fruit-3" name="fruit-3" required></select></label>
             </fieldset>
 
             <fieldset class="instructions">
                 <legend>Specific Instructions</legend>
-                <label class="special-instructions"> <textarea name="special-instruction" id="special-instructions" maxlength="500" placeholder="Leave any specific instructions you might like in your specialty drink..."></textarea></label>
+                <label class="special-instructions"> <textarea id="special-instructions" name="special-instruction" maxlength="500" placeholder="Leave any specific instructions you might like in your specialty drink..."></textarea></label>
             </fieldset>
 
             <label class="submission-date"><input type="hidden" id="completed-date" name="completed-date" value=""></label>
+
+            <button type="submit" value="Order" class="order-button">Order</button>
+
         </form>
 
-        <button type="button" class="order-button">Order</button>
+        
 
         <div class="fruit-punch">
             <picture class="punch-picture">
                 <img src="images/splashjuicelarge.webp" alt="California picture" loading="lazy">
             </picture> 
         </div>
+        <div class="special-box" >
+            <p>Number of specialty drinks ordered: <span class="s-drinks"></span>!</p>
+        </div>
     </main>
     <footer>
         <p>&copy;<span id="copyright-year"></span>Bountiful Foods || WDD230 || Abraham Galicia ||<span id="last-updated"></span></p>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/orders.js"></script>
 </body>
 </html>
