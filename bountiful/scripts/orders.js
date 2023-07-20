@@ -1,12 +1,9 @@
 //This section is for the drinks ordered box.
-let orderPlaced = 10;
-//get the last local storage number of drinks ordered saved
-let numberOfOrders = Number(window.localStorage.getItem("number-of-orders"))
-//set the local storage to today's date
-localStorage.setItem('number-of-orders', orderPlaced);
-//display the orders placed.
-const ordersCount = document.querySelector('.s-drinks');
-ordersCount.textContent = `${numberOfOrders}`; 
+
+let numberOrders = Number(window.localStorage.getItem("number-of-orders"))
+localStorage.setItem('number-of-orders', numberOrders);
+const orderCount = document.querySelector('.s-drinks');
+orderCount.textContent = `${numberOrders}`; 
 
 //Submission time part...
 
@@ -19,11 +16,11 @@ let submissionInputValue = submissionInput.value;
 submissionInputValue = submissionTimeValue;
 
 //Pick fruits options part...
-const url = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
+const urlOrders = 'https://brotherblazzard.github.io/canvas-content/fruit.json';
 
 
 async function getFruits() {
-    const response = await fetch(url);
+    const response = await fetch(urlOrders);
     if(response.ok) {
         const data = await response.json();
         displayOptions(data);
@@ -62,7 +59,6 @@ submissionForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
     const formData = new FormData(submissionForm);
-    console.log(formData.get('fname'));
     
     const orderBox = document.createElement('div');    
     orderBox.setAttribute('class', 'order-details');
@@ -94,7 +90,6 @@ submissionForm.addEventListener('submit', (event) => {
         const filteredFruits = ListofFruits.filter((fruit) => fruit.name === chosenFruit1);
         filteredFruits.push(...ListofFruits.filter((fruit) => fruit.name === chosenFruit2));
         filteredFruits.push(...ListofFruits.filter((fruit) => fruit.name === chosenFruit3));
-        console.log(filteredFruits);
 
         let totalCarbs = 0;
         let totalProtein = 0;
@@ -132,7 +127,7 @@ submissionForm.addEventListener('submit', (event) => {
 
 
     const instructionsElement = document.createElement('p');
-    instructionsElement.textContent = `Special Instructions: ${formData.get('special-instructions')}`;
+    instructionsElement.textContent = `Special Instructions: ${formData.get('special-instructions')}, Ordered: ${submissionInputValue}`;
     
 
     personalInfoBox.appendChild(firstNameElement);
@@ -148,7 +143,7 @@ submissionForm.addEventListener('submit', (event) => {
     orderBox.appendChild(specialInfoBox);
     freshPage.appendChild(orderBox);
     
-    orderPlaced += 1;
+    numberOrders += 1;
 });
 
 
